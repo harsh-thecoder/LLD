@@ -17,30 +17,6 @@ public class Car {
         this.navigationSystem = builder.navigationSystem;
     }
 
-    private String getEngine() {
-        return engine;
-    }
-
-    private int getWheels() {
-        return wheels;
-    }
-
-    private int getSeats() {
-        return seats;
-    }
-
-    private String getColor() {
-        return color;
-    }
-
-    private boolean hasSunroof() {
-        return sunroof;
-    }
-
-    private boolean hasNavigationSystem() {
-        return navigationSystem;
-    }
-
     @Override
     public String toString() {
         return "Car [ engine = " + engine + ", wheels = " + wheels + ", seats = " + seats + ", color = " + color + 
