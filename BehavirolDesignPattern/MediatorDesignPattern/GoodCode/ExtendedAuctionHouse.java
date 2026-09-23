@@ -9,7 +9,7 @@ public class ExtendedAuctionHouse extends  AuctionHouse{
     @Override 
     public void placeBid(Bidder bidder,int amount){
         if(System.currentTimeMillis() > biddingEndTime){
-            System.out.println("Bidding time is over. No more bids.");
+            System.out.println("Bidding time is over. No more bids for " + bidder.getName());
             return;
         }
 
