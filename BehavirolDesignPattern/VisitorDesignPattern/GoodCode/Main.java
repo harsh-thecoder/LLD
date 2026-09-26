@@ -3,6 +3,8 @@ package BehavirolDesignPattern.VisitorDesignPattern.GoodCode;
 /*
     This makes it alot loosely coupled
     This makes adding a new section easily
+    It has Double Dispatch Magic (variations on Visiting methods like (diagnosis,billing) and patients like (child,adult)
+    can be achieved)
 */
 public class Main {
    public static void main(String[] args) {
