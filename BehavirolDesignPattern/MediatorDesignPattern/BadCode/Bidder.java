@@ -2,13 +2,11 @@ package BehavirolDesignPattern.MediatorDesignPattern.BadCode;
 
 public class Bidder {
     private String name;
-    private int bid;
     public Bidder(String name){
         this.name = name;
     }
 
     public void placeBid(int amount,Bidder[] bidders){
-        this.bid = amount;
         System.out.println(name + " placed a bid of " + amount);
         for(Bidder bidder : bidders){
             if(bidder != this){
