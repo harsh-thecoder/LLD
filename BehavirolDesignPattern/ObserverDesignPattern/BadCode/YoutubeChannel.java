@@ -11,7 +11,7 @@ public class YoutubeChannel {
     }
 
     public void uploadNewVideo(String Video){
-        this.video = video;
+        this.video = Video;
     }
 
     public void notifySubscribers(){
