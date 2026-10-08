@@ -12,10 +12,10 @@ public class Main {
          System.out.println(coffee.getDescription());
          System.out.println("The cost of the coffee is : " + coffee.getCost());
 
-         coffee = new Cappuccino();
-         coffee = new SugarDecorator(coffee);
-         coffee = new MilkDecorator(coffee);
-         System.out.println(coffee.getDescription());
-         System.out.println("The cost of the coffee is : " + coffee.getCost());
+         Coffee coffee2 = new Cappuccino();
+         coffee2 = new SugarDecorator(coffee2);
+         coffee2 = new MilkDecorator(coffee2);
+         System.out.println(coffee2.getDescription());
+         System.out.println("The cost of the coffee is : " + coffee2.getCost());
     }
 }
